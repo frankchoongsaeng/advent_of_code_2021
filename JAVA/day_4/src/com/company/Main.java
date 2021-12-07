@@ -14,7 +14,7 @@ public class Main {
         Integer[] numbers = new Integer[s_numbers.length];
         for (int i = 0; i < s_numbers.length; ++i) numbers[i] = Integer.parseInt(s_numbers[i]);
 
-        /* parse the boards into a multi dimensional array */
+        /* parse the boards into a multidimensional array */
         Vector<Vector[]> allboards = new Vector<>();
         /* create a copy of all boards to be marked on */
         Vector<Vector[]> allboardsCopy = new Vector<>();
